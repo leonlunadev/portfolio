@@ -22,25 +22,25 @@ h2 {
 
 .projects {
   background-color: blue;
-  height: 500px;
+  height: 900px;
   width: 100%;
 }
 
 .about {
   background-color: green;
-  height: 500px;
+  height: 900px;
   width: 100%;
 }
 
 .resume {
   background-color: red;
-  height: 500px;
+  height: 900px;
   width: 100%;
 }
 
 .contact {
   background-color: yellow;
-  height: 500px;
+  height: 900px;
   width: 100%;
 }
 
@@ -51,4 +51,8 @@ h2 {
   margin-left: 40px;
   margin-right: 40px;
   border-radius: 10px;
+}
+
+.grid {
+  display: flex;
 }
