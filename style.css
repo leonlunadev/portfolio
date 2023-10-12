@@ -1,0 +1,54 @@
+h1 {
+  display: inline-block;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  float: right;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+h2 {
+  float: right;
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.projects {
+  background-color: blue;
+  height: 500px;
+  width: 100%;
+}
+
+.about {
+  background-color: green;
+  height: 500px;
+  width: 100%;
+}
+
+.resume {
+  background-color: red;
+  height: 500px;
+  width: 100%;
+}
+
+.contact {
+  background-color: yellow;
+  height: 500px;
+  width: 100%;
+}
+
+.image {
+  background-color: black;
+  height: 189px;
+  width: 336px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 10px;
+}
