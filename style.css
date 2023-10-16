@@ -3,6 +3,11 @@ body {
   text-align: center;
 }
 
+p {
+  color: red;
+  font-weight: bold;
+}
+
 h1 {
 }
 
