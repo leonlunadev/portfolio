@@ -1,28 +1,36 @@
 h1 {
-  display: inline-block;
 }
 
 img {
   height: 50px;
-  width: 50px;
-  float: right;
-  display: inline-block;
-  margin-top: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 h2 {
-  float: right;
   display: inline-block;
-  margin-top: 30px;
-  margin-right: 10px;
-  margin-left: 10px;
+  padding: 10px;
+}
+
+.header {
+  text-align: center;
+}
+
+.nav {
+}
+
+@media (max-width: 650px) {
+  .header {
+    color: red;
+  }
+  .nav {
+  }
+  h2 {
+    display: block;
+  }
 }
 
 .projects {
   background-color: blue;
-  height: 900px;
+  height: 100%;
   width: 100%;
 }
 
@@ -44,15 +52,25 @@ h2 {
   width: 100%;
 }
 
+.content h1 {
+  padding-left: 40px;
+}
+
 .image {
+  align: center;
   background-color: black;
   height: 189px;
   width: 336px;
-  margin-left: 40px;
-  margin-right: 40px;
+  padding: 10px;
+  margin: 40px 40px 40px 40px;
   border-radius: 10px;
+  display: inline-block;
 }
 
 .grid {
-  display: flex;
+  max-width: 100%;
+  align: center;
+
+  display: block;
+  overflow-y: auto;
 }
