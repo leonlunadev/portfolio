@@ -3,6 +3,10 @@ body {
   text-align: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 p {
   color: red;
   font-weight: bold;
@@ -40,7 +44,8 @@ h2 {
 
 .projects {
   background-color: blue;
-  height: 100%;
+  height: 900px;
+  min-hieght: 900px;
 }
 
 .grid {
