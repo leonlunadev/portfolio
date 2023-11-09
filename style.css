@@ -1,88 +1,29 @@
 body {
-  margin: 0 auto;
-  text-align: center;
+  margin: 0;
+  background-color: lightblue;
 }
 
-html {
-  scroll-behavior: smooth;
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
 }
 
-p {
-  color: red;
-  font-weight: bold;
-}
-
-h1 {
-}
-
-h2 {
-  display: inline-block;
+a {
+  text-decoration: none;
+  color: black;
   padding: 10px;
 }
 
 .header {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightblue;
 }
 
-.nav {
-}
-
-@media (max-width: 650px) {
-  .header {
-    color: red;
-  }
-  .nav {
-  }
-  h2 {
-    display: block;
-  }
-}
-
-.content h1 {
+.title {
+  font-size: 45px;
   padding: 10px;
-}
-
-.projects {
-  background-color: blue;
-  height: 900px;
-  min-hieght: 900px;
-}
-
-.grid {
-  display: block;
-  overflow-y: auto;
-}
-
-.image {
-  background-color: black;
-  height: 189px;
-  width: 336px;
-  margin: 20px;
-
-  border-radius: 10px;
-  display: inline-block;
-}
-
-.grid img {
-  width: 300px;
-  border-radius: 10px;
-  margin: 20px;
-}
-
-.about {
-  background-color: green;
-  height: 900px;
-  width: 100%;
-}
-
-.resume {
-  background-color: red;
-  height: 900px;
-  width: 100%;
-}
-
-.contact {
-  background-color: yellow;
-  height: 900px;
-  width: 100%;
 }
