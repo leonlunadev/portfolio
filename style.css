@@ -58,6 +58,7 @@ a {
   align-items: center;
   gap: 10px;
   margin-top: 10px;
+  justify-content: center;
 }
 
 .title {
@@ -74,14 +75,16 @@ a {
   height: 40px;
 }
 .preview {
-  background-color: gray;
-  width: 320px;
-  height: 200px;
   display: flex;
   margin: 0 auto;
 }
 
+.preview img {
+  width: 320px;
+  height: 200px;
+  border: 2px solid black;
+}
+
 .description {
-  margin-top: 10px;
   text-align: center;
 }
