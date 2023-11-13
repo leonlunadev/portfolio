@@ -50,6 +50,21 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.tech {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.tech .badge {
+  width: 40px;
+  background-color: blue;
+  border-radius: 20px;
+  height: 40px;
 }
 
 .title {
@@ -57,23 +72,20 @@ a {
   font-size: 22px;
 }
 
-.badge {
-  background-color: red;
+.badge img {
   width: 40px;
   height: 40px;
-  border-radius: 20px;
 }
-.logo {
-  background-color: black;
+.logo img {
   width: 40px;
   height: 40px;
-  border-radius: 20px;
 }
 .preview {
   background-color: gray;
   width: 320px;
   height: 200px;
-  margin: 10px 0;
+  display: flex;
+  margin: 0 auto;
 }
 
 .description {
