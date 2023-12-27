@@ -3,11 +3,22 @@ body {
   background-color: lightblue;
 }
 
-ul {
+.header ul {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
+  font-size: 30px;
+}
+
+.links ul {
+  list-style: none;
+}
+
+.links li {
+  font-size: 45px;
+  padding: 10px;
+  text-decoration: underline;
 }
 
 a {
@@ -44,6 +55,7 @@ a {
   padding: 10px;
   border-radius: 10px;
   flex: 1;
+  max-width: 500px;
 }
 
 .align {
@@ -82,7 +94,6 @@ a {
 .preview img {
   width: 320px;
   height: 200px;
-  border: 2px solid black;
 }
 
 .description {
