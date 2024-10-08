@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "NorseBold";
+  src: url("Norse-Bold.otf") format("opentype");
+}
+
 body {
   margin: 0;
   background-color: lightblue;
@@ -89,11 +94,14 @@ a {
 .preview {
   display: flex;
   margin: 0 auto;
+  font-size: 40px;
+  font-family: "NorseBold", san-serif;
 }
 
 .preview img {
   width: 320px;
   height: 200px;
+  font-family: ;
 }
 
 .description {
